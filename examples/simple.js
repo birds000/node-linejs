@@ -3,7 +3,7 @@ const bot = new Client();
 
 const token = 'FsFTiPvpkkB7j4O5oTia.CwlHh48KnGB0nAUbDDjaMG.im9wt8lys26TYEk4jMy2a5cPUg9SE/x/l5LS8Xpgg+U='
 
-bot.on('ready',()=>{
+bot.on('ready', async ()=>{
     console.log(`logged as ${bot.user.displayName} ${bot.user.id}`)
     /*
         bot.users.cache.get('someuserid').send('Heww lo Line (⪴╰╯⪳)')
