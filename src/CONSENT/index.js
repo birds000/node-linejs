@@ -54,12 +54,12 @@ module.exports = {
             "x-line-application": "CHROMEOS\t2.3.2\tChrome OS\t1"
         },
         "desktopwin": {
-            "user-agent": "Line/6.7.3",
-            "x-line-application": "DESKTOPWIN\t6.7.3\tWindows\t10"
+            "user-agent": "Line/7.1.1",
+            "x-line-application": "DESKTOPWIN\t7.1.1\tWindows\t10"
         },
         "desktopmac": {
-            "user-agent": "Line/6.7.3",
-            "x-line-application": "DESKTOPMAC\t6.7.3\tMAC\t10.15"
+            "user-agent": "Line/7.1.0",
+            "x-line-application": "DESKTOPMAC\t7.1.0\tMAC\t10.15"
         }
     }
 }

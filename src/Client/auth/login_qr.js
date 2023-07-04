@@ -27,8 +27,8 @@ module.exports = async()=>{
         host: 'gxx.line.naver.jp',
         path: '/acct/lgn/sq/v1',
         headers: {
-            'User-Agent': 'Line/6.7.3',
-            'X-Line-Application': 'DESKTOPWIN\t6.7.3\tALFINO-PCV3\t10.0;SECONDARY',
+            'User-Agent': 'Line/7.1.1',
+            'X-Line-Application': 'DESKTOPWIN\t7.1.1\tALFINO-PCV3\t10.0;SECONDARY',
             'x-lal': 'en_id',
             'server': 'pool-3'
         },
@@ -48,8 +48,8 @@ module.exports = async()=>{
         host: 'gxx.line.naver.jp',
         path: '/acct/lp/lgn/sq/v1',
         headers: {
-            'User-Agent': 'Line/6.7.3',
-            'X-Line-Application': 'DESKTOPWIN\t6.7.3\tALFINO-PCV3\t10.0;SECONDARY',
+            'User-Agent': 'Line/7.1.1',
+            'X-Line-Application': 'DESKTOPWIN\t7.1.1\tALFINO-PCV3\t10.0;SECONDARY',
             'X-Line-Access': session.authSessionId,
             'x-lal': 'en_id',
             'server': 'pool-3'

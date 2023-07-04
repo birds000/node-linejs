@@ -69,7 +69,7 @@ class Client extends events {
     async init_session(){
         await this.transport.connect({
             host: CONSENT.line_server.HOST,
-            headers: CONSENT.headers["desktopwin"],
+            headers: CONSENT.headers["desktopmac"],
             SEND_PATH: CONSENT.line_server.SEND_PATH,
             RECEIVE_PATH: CONSENT.line_server.RECEIVE_PATH,
             service: CONSENT.thrift.TalkService
